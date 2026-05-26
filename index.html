@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Cafeteria</title>
+</head>
+<body>
+   
+     <header class="cards">
+     
+         <div id="inicio" class="card">
+        
+          <img src="assets/logo.png" alt="logo-image" class="logo">
+
+        <input type="checkbox" id="menu-toggle" hidden>
+
+          <label for="menu-toggle" class="btn-menu">
+               ☰
+          </label>
+    
+        <ul class="menu">
+          <li><a href="#inicio" onclick="document.getElementById('menu-toggle').checked=false">Início</a></li>
+
+          <li><a href="cardapio.html" onclick="document.getElementById('menu-toggle').checked=false">Cardápio</a></li>
+
+          <li><a href="#sobre" onclick="document.getElementById('menu-toggle').checked=false">Sobre</a></li>
+
+       </ul>
+     
+       
+
+      <section  class="text">
+        <div>
+            <h1>O café que<br>acorda ate<br>sua alma</h1>
+            <p>Cafés especiais feitos com paixão<br>para transformar o seu dia</p>
+            <a href="cardapio.html"><button>Ver Cardápio</button></a>
+        </div>
+      </section>
+
+    </header>
+
+    <img src="assets/banner-image.png" alt="banner-image" class="banner-inicio">
+   
+    <main>
+       
+        <div class="titulo-cardapio">
+           <h1>CAFÉS<br>MAIS VENDIDOS</h1>
+        </div>
+
+        <section class="cafe-cards">
+            
+           <div class="cafe-card">
+              <img src="assets/card1.png" alt="cafe-image">
+              
+              <h1>Cappuccino</h1>
+            
+            <ul>
+              <li>Café expresso</li>
+              <li>Leite Vaporizado</li>
+              <li>Espuma de Leite</li>
+              <li>Toque de Cacau</li>
+            </ul>
+             
+              <h2>R$ 12,90</h2>
+              <button>Peça Agora</button>
+             
+            </div>
+
+
+            <div class="cafe-card">
+              <img src="assets/card2.png" alt="cafe-image">
+               
+              <h1>iced coffée</h1>
+           
+            <ul>
+              <li>Gelo</li>
+              <li>Leite</li>
+              <li>Café Gelado</li>
+              <li>Um toque de Baunilha</li>
+            </ul>
+              
+              <h2>R$ 13,90</h2>
+              <button>Peça Agora</button>
+           
+            </div>
+
+
+            <div class="cafe-card">
+              <img src="assets/card3.jpg" alt="cafe-image">
+
+              <h1>Mocha</h1>
+             
+           <ul>
+              <li>Leite</li>
+              <li>Chantilly</li>
+              <li>Café expresso</li>
+              <li>Chocolate meio Amargo</li>
+           </ul>
+              
+              <h2>R$ 14,90</h2>
+              <button>Peça Agora</button>
+            
+            </div>
+        
+        </section>
+
+        <div id="sobre" class="sobre">
+          
+          <h1>SOBRE NÓS</h1>
+          <h2>Mais que café,<br>uma experiência.</h2>
+          <p>A Coffe House é o nosso refúgio no meio do caos.<br>Agente serve café de origem,com um toque artesanal,<br>
+            um ambiente acolhedor e aquele mood de criatividade no ar.<br>Aqui,cada gole é uma experiência.</p>
+          <button>Saiba mais</button>
+        </div>
+         
+        
+        <img src="assets/banner-final.jpg" alt="cafeteria-image" class="sobre-img">
+        
+      </div>
+      
+    </main>
+     
+    
+  <div class="rodape">
+       <p>&copy;2026 Coffee House.Todos os direitos reservados.</p>
+  </div>
+ 
+   <a href="#inicio" class="scroll-top">
+        ↑
+    </a>
+  
+  
+  <script>
+    const seta = document.querySelector(".scroll-top");
+
+    window.addEventListener("scroll", ()=>{
+
+   if(window.scrollY > 200){
+
+      seta.style.opacity = "1";
+      seta.style.visibility = "visible";
+
+   }
+
+   else{
+
+      seta.style.opacity = "0";
+      seta.style.visibility = "hidden";
+
+   }
+
+});
+
+</script>
+</body>
+</html>

@@ -1,0 +1,565 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+  
+
+body{
+    background:rgb(219, 235, 235);
+   animation: aparecer 0.5s ease;
+}
+
+@keyframes aparecer{
+ from{
+    opacity: 0;
+ }
+
+ to{
+    opacity: 1;
+}
+}
+
+  .card{
+    display: flex;
+    gap:700px;
+    border-radius: none;
+    background-color: white;
+    max-height:100px;
+    padding:-100px;
+    position: relative;
+    align-items: flex-start;
+    overflow: visible;
+  }
+
+.logo{
+    width: 220px;
+    height: 220px;
+    margin-top: -50px;
+    margin-left: 20px;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    margin-top: 50px;
+    font-size: 20px;
+    
+}
+
+.card a{
+    text-decoration: none;
+    color:black;
+}
+
+.card a{
+    color: black;
+}
+
+.card a:hover{
+    color: rgb(169, 107, 107);
+}
+
+.banner-inicio{
+    width: 100%;
+    height: 600px;
+
+}
+
+.text{
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    max-width: 520px;
+}
+
+
+.cards h1{
+    font-size: 80px;
+    color: white;
+}
+
+.cards p{
+    font-size: 30px;
+    color:white;
+}
+
+.cards button{
+    margin-top: 30px;
+    margin-left: -10px;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    background: rgb(161, 220, 220);
+    color: black;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: 0.3s;
+    
+}
+
+
+.cards button:hover{
+    background:  rgb(41, 129, 129);
+    
+}
+
+.cafe-cards img{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.cafe-cards{
+     display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    background: rgb(219, 235, 235); 
+    padding: 40px;
+
+}
+
+.cafe-card{
+    border-radius: 30px;
+    background: white;
+    padding: 40px;
+    margin-top: 20px;
+   display: grid;
+   text-align: center;
+}
+
+.cafe-card li{
+list-style-position: inside;
+text-align: center;
+}
+
+.cafe-card h2{
+    margin-top:10px;
+}
+
+.cafe-card button{
+    margin-top:20px;
+    border-radius:10px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    background:rgb(161, 220, 220) ;
+    cursor: pointer;
+}
+
+.cafe-card button{
+ background:rgb(161, 220, 220) ;
+}
+
+.cafe-card button:hover{
+    background: rgb(91, 133, 133) ;
+}
+
+.titulo-cardapio{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background:  rgb(219, 235, 235);
+   
+}
+
+
+.titulo-cardapio h1{
+    margin-left:-20px;
+    margin-top: 30px;
+    font-size: 40px;
+    text-align: center;
+   
+}
+
+.titulo-cardapio img{
+    width: 40px;
+    height:40px;
+    margin-left: 45%;
+   
+}
+
+
+.sobre{
+    display:grid;
+    justify-content: start;
+    margin-top: 60px;
+    margin-left:120px;
+    position: relative;
+    
+}
+
+.sobre-img{
+    width: 510px;
+    height: 400px;
+    margin-left:900px;
+    margin-top:-400px;
+    position: absolute;
+
+}
+
+.sobre h1{
+    font-size:18px;
+    color: rgb(91, 133, 133);
+    
+}
+
+.sobre h2{
+    font-size:40px;
+    margin-top:20px;
+}
+
+
+.sobre p{
+    margin-top:30px;
+    font-size: 20px;
+    
+}
+
+.sobre button{
+    margin-top:40px;
+    max-width: 200px;
+    padding: 13px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight:bolder;
+    background: rgb(161, 220, 220);
+}
+
+
+.sobre button:hover{
+    background:rgb(91, 133, 133) ;
+}
+
+
+
+.rodape{
+   width: 100%;
+   background:rgb(161, 220, 220) ;
+   padding: 10px;
+   text-align: center;
+   color: white;
+   margin-top: 20px;
+}
+
+
+
+.text-image img{
+    width: 200px;
+    height: 200px;
+    margin-top: -140px;
+    margin-left: 90px;
+}
+
+.text-image p{
+    margin-top: -70px;
+    margin-left: 90px;
+}
+
+
+
+.inicio{
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: -50px;
+}
+
+
+
+.image-logo{
+    width:300px;
+    height: 300px;
+    margin-left: 80px;
+   
+}
+
+.inicio h1{
+     font-size: 30px;
+     margin-top:-70px;
+     margin-left: 20px;
+}
+
+.inicio p{
+    font-size: 30px;
+    margin-left:-20px;
+    margin-top: 10px;
+    
+}
+
+.cards-cardapio{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 0 100px;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.card-cardapio{
+    background: white;
+    padding: 10px;
+    width: 350px;
+    height: 420px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+.card-cardapio img{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    margin-left: 0;
+}
+
+.card-cardapio h1{
+    font-size: 20px;
+    margin-left: 0;
+}
+
+.card-cardapio li{
+    margin-left: 0;
+    list-style-position: inside;
+}
+
+.card-cardapio button{
+    margin-top: auto;
+    padding: 10px;
+    width: 250px;
+    font-size: 20px;
+    border-radius: 10px;
+    font-weight: bolder;
+    background: rgb(161, 220, 220);
+    cursor: pointer;
+}
+
+.card-cardapio h2{
+   margin-top: 10px;
+}
+
+.card-cardapio button:hover{
+   background:  rgb(91, 133, 133);
+
+}
+
+.final h1{
+    color: rgb(43, 69, 69);
+    font-size: 20px;
+}
+
+.final p{
+    color: rgb(43, 63, 63);
+    margin-left: 10px;
+}
+
+.final img{
+    width: 100px;
+    height: 100px;
+    
+}
+
+
+.footer{
+    display: flex;
+    justify-content: center;
+    gap: 250px;
+    background: rgb(161, 220, 220);
+    margin-top: 20px;
+    margin-left: 140px;
+    border-radius: 20px;
+    padding: 20px;
+    width: 80%;
+    
+}
+
+
+#menu-toggle{
+   display:none;
+}
+
+.btn-menu{
+   display:none;
+   font-size:32px;
+   cursor:pointer;
+   z-index: 1000;
+}
+
+@media (max-width: 1024px){
+    .card{ gap: 120px; }
+    .text{ left: 50px; top: 170px; }
+    .cards h1{ font-size: 60px; }
+    .cards p{ font-size: 22px; }
+    .titulo-cardapio{margin-left: 15px;}
+
+    .cafe-cards{ gap: 30px; padding: 20px; flex-wrap: wrap; }
+    .sobre{ margin-left: 40px; }
+    .sobre-img{ margin-left: 600px; }
+
+    .contato{ margin-left: 0; flex-direction: column; align-items: flex-start; gap: 10px; }
+    .rodape{ margin-left: 0; }
+}
+
+@media (max-width: 700px){
+    
+    .card{ 
+        gap: 10px;
+        justify-content: space-between;
+        padding: 10px;
+    }
+    .logo{ width: 120px; height: 120px; margin-top: -10px; margin-left: 0; }
+
+    
+
+    .text{ position: absolute; left: 20px; top: 140px; }
+    .cards h1{ font-size: 40px; }
+    .cards p{ font-size: 18px; }
+    .cards button{ padding: 14px; font-size: 16px; margin-left: 0; }
+
+
+    
+    .sobre{ margin-left: 20px; margin-top: 30px; }
+    .sobre-img{ 
+        position: relative;
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        margin-top: 20px;
+        display: block;
+    }
+    .sobre h2{ font-size: 28px; }
+    .sobre p{ font-size: 18px; }
+
+
+    .cafe-cards{ flex-direction: column; gap: 20px; }
+    .cafe-card{ width: 100%; max-width: 420px; margin: 0 auto; }
+    .cafe-cards img{ width: 100%; height: auto; }
+
+   
+    .contatos{ padding: 30px 15px; }
+    .contato{ align-items: flex-start; }
+    .text-image img{ margin-left: 0; margin-top: 10px; }
+    .text-image p{ margin-left: 0; margin-top: -20px; }
+    .rodape{ text-align: center; }
+
+   
+    .cards-cardapio{
+        grid-template-columns: 1fr;
+        padding: 0 15px;
+        margin-left: 0;
+        gap: 20px;
+    }
+    .card-cardapio{ width: 100%; height: auto; }
+    .card-cardapio img{ width: 100%; height: auto; }
+    .card-cardapio button{ width: 100%; max-width: 320px; }
+    .card-cardapio h1{font-size: 30px;}
+
+    .footer{ 
+        margin-left: 29px;
+        width: 90%;
+        gap: 20px;
+        flex-direction: column;
+        text-align: center;
+    }
+    .image-logo{ margin-left: 80px; width: 200px; height: 200px; }
+    .inicio{ margin-top: -20px; }
+    .inicio h1{ margin-left: 0; font-size: 26px; }
+    .inicio p{ margin-left: 20px; font-size: 20px; }
+
+.menu{
+   display:none;
+   flex-direction:column;
+   justify-content:center;
+   align-items:center;
+   gap:30px;
+   margin-top: 20px;
+
+   position:fixed;
+   top:0;
+   left:0;
+
+   width:100%;
+   height:100vh;
+
+   background:rgb(161, 220, 220);
+
+   z-index:999;
+}
+
+#menu-toggle:checked ~ .menu{
+   display:flex;
+}
+
+.btn-menu{
+   display:block;
+   position:relative;
+   z-index:1000;
+}
+
+.menu a{
+   font-size:30px;
+}
+}
+
+.scroll-top{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+
+    background: rgb(43, 63, 63);
+    color: black;
+
+    width: 50px;
+    height: 50px;
+
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-decoration: none;
+    font-size: 30px;
+
+    z-index: 1000;
+     opacity:0;
+    visibility:hidden;
+
+    transition:0.3s;
+}
+
+.voltar{
+    position: fixed;
+    top: 20px;
+    left: 20px;
+
+    width: 50px;
+    height: 50px;
+
+    background: rgb(161, 220, 220);
+
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+
+    z-index: 1000;
+
+    transition: 0.3s;
+}
+.voltar:hover{
+    background: rgb(91, 133, 133);
+}
