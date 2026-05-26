@@ -5,23 +5,22 @@
     font-family: "Montserrat", sans-serif;
 }
   
-
 body{
     background:rgb(219, 235, 235);
    animation: aparecer 0.5s ease;
 }
 
 @keyframes aparecer{
- from{
-    opacity: 0;
- }
+    from{
+       opacity: 0;
+    }
 
- to{
-    opacity: 1;
-}
+   to{
+       opacity: 1;
+   }
 }
 
-  .card{
+.card{
     display: flex;
     gap:700px;
     border-radius: none;
@@ -31,7 +30,7 @@ body{
     position: relative;
     align-items: flex-start;
     overflow: visible;
-  }
+}
 
 .logo{
     width: 220px;
@@ -75,7 +74,6 @@ body{
     max-width: 520px;
 }
 
-
 .cards h1{
     font-size: 80px;
     color: white;
@@ -100,7 +98,6 @@ body{
     
 }
 
-
 .cards button:hover{
     background:  rgb(41, 129, 129);
     
@@ -121,7 +118,6 @@ body{
     padding: 40px;
 
 }
-
 .cafe-card{
     border-radius: 30px;
     background: white;
@@ -166,7 +162,6 @@ text-align: center;
    
 }
 
-
 .titulo-cardapio h1{
     margin-left:-20px;
     margin-top: 30px;
@@ -182,14 +177,12 @@ text-align: center;
    
 }
 
-
 .sobre{
     display:grid;
     justify-content: start;
     margin-top: 60px;
     margin-left:120px;
     position: relative;
-    
 }
 
 .sobre-img{
@@ -198,13 +191,11 @@ text-align: center;
     margin-left:900px;
     margin-top:-400px;
     position: absolute;
-
 }
 
 .sobre h1{
     font-size:18px;
     color: rgb(91, 133, 133);
-    
 }
 
 .sobre h2{
@@ -212,11 +203,9 @@ text-align: center;
     margin-top:20px;
 }
 
-
 .sobre p{
     margin-top:30px;
     font-size: 20px;
-    
 }
 
 .sobre button{
@@ -229,12 +218,9 @@ text-align: center;
     background: rgb(161, 220, 220);
 }
 
-
 .sobre button:hover{
     background:rgb(91, 133, 133) ;
 }
-
-
 
 .rodape{
    width: 100%;
@@ -244,8 +230,6 @@ text-align: center;
    color: white;
    margin-top: 20px;
 }
-
-
 
 .text-image img{
     width: 200px;
@@ -259,16 +243,12 @@ text-align: center;
     margin-left: 90px;
 }
 
-
-
 .inicio{
     display:grid;
     justify-content: center;
     align-items: center;
     margin-top: -50px;
 }
-
-
 
 .image-logo{
     width:300px;
@@ -312,7 +292,6 @@ text-align: center;
     align-items: center;
     text-align: center;
 }
-
 
 .card-cardapio img{
     width: 300px;
@@ -378,9 +357,7 @@ text-align: center;
     border-radius: 20px;
     padding: 20px;
     width: 80%;
-    
 }
-
 
 #menu-toggle{
    display:none;
@@ -417,15 +394,11 @@ text-align: center;
     }
     .logo{ width: 120px; height: 120px; margin-top: -10px; margin-left: 0; }
 
-    
-
     .text{ position: absolute; left: 20px; top: 140px; }
     .cards h1{ font-size: 40px; }
     .cards p{ font-size: 18px; }
     .cards button{ padding: 14px; font-size: 16px; margin-left: 0; }
 
-
-    
     .sobre{ margin-left: 20px; margin-top: 30px; }
     .sobre-img{ 
         position: relative;
@@ -438,19 +411,16 @@ text-align: center;
     .sobre h2{ font-size: 28px; }
     .sobre p{ font-size: 18px; }
 
-
     .cafe-cards{ flex-direction: column; gap: 20px; }
     .cafe-card{ width: 100%; max-width: 420px; margin: 0 auto; }
     .cafe-cards img{ width: 100%; height: auto; }
 
-   
     .contatos{ padding: 30px 15px; }
     .contato{ align-items: flex-start; }
     .text-image img{ margin-left: 0; margin-top: 10px; }
     .text-image p{ margin-left: 0; margin-top: -20px; }
     .rodape{ text-align: center; }
 
-   
     .cards-cardapio{
         grid-template-columns: 1fr;
         padding: 0 15px;
